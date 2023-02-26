@@ -1,0 +1,136 @@
+/* ini adalah untuk memasukkan background */
+body {
+	/* Guna font jenis ini */
+  font-family: sans-serif;
+	/* nama fail yang dirujuk */
+  background-image: url("gambar/back.jpg");
+	/* saiz fail adalah penuh */
+  height: 100%; 
+	/* lokasi dan cara paparan */
+  background-position: center;
+  background-repeat: yes-repeat;
+  background-size: cover;
+}
+
+/* Jika guna #nama, maka cara panggil adalah id="nama" */
+textbox{ 
+	/*saiz INPUT TEXT BOX */
+  width: 40%;
+	/*Warna TEXT BOX */
+  background-color:#f3b3dc;
+}
+
+/* CSS pada button, guna .nama maka cara panggil adalah class="nama" */
+button{
+		/*button yang bentuk bulat */
+    border-radius:10px;
+		/*saiz garisan button*/
+    border:2px;
+		/*warna background dalam button */
+    background-color:red;
+		/*warna text dalam button */
+    color:white;
+	/*saiz button */
+    padding:5px 10px;
+	/*spacing antara huruf */
+    letter-spacing: 1px;
+}
+
+/*jika nak animasi pd button, mouse over, */
+
+.klik:hover {
+	/*warna background */
+	background-color:#023fc1;
+	}
+
+/* CSS pada pautan/link untuk jenis teks */
+/* Kali ini kita guna yang general, iaitu semua link teks akan diaplikasikan jika css ini digunakan */
+
+
+a:hover {
+	/*warna teks*/
+  color:#f93c09;
+	/*spacing antara teks akan berubah bila mouse over */
+  letter-spacing: 3px;
+}
+
+/* masukkan CSS pada header saiz h2 untuk semua keadaan */
+
+
+h2 {
+	/*boleh pilih color, guna html color code */
+   color:blue;
+   /*font style jenis bold */
+   font-weight:bold;
+   /*jarak antara huruf */
+   letter-spacing:3px;
+   margin-bottom:1px;
+}
+
+/* masukkan CSS pada elemen select */
+select {
+	/*saiz elemen*/
+  width: 40%;
+	/*warna background select-kena sama dgn input box sebelum ni*/
+  background-color:#f3b3dc;
+}
+
+
+
+
+table {
+	/* font bagi teks dalam table */
+  font-family: arial;
+  /* jenis line border table */
+  border-collapse: collapse;
+  /* saiz paparan table */
+  width: 100%;
+  
+  font-size: 12px;
+ text-align: l;
+  
+}
+
+td, tr {
+	/* saiz line border */
+  border: 1px;
+  background-color: #99CCFF
+  /* penjajaran teks dalam table */
+  text-align: left;
+  /* jarak baris dalam table */
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+	/* warna baris yang kedua */
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
